@@ -421,7 +421,7 @@ img {
 }
 
 .list-box {
-  width: 100%;
+  width: 110%;
   padding: 20px;
   display: flex;
   justify-content: flex-start;
