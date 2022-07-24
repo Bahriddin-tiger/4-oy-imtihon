@@ -5,12 +5,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>4-oy imtihon</title>
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-
+  <h1 class="visually-hidden">jsonplaceholder typicode users</h1>
+  <div class="list-box container">
+    <ul class="js-list">
+    </ul>
+    <ul class="js-listposts"></ul>
+    <ul class="js-listcomment"></ul>
+  </div>
+  <template class="js-template">
+    <li class="js-item">
+      <span class="js-id"></span>
+      <h2 class="js-name"></h2>
+      <h3 class="js-username"></h3>
+      <a class="js-email"></a>
+      <address class="js-address">
+        <p class="js-street"></p>
+        <p class="js-suite"></p>
+        <p class="js-city"></p>
+        <p class="js-zipcode"></p>
+        <a href="" target="_blank" class="js-geo"></a>
+      </address>
+      <a class="js-phone"></a>
+      <a class="js-website"></a>
+      <div class="js-companiy">
+        <h4 class="company-name"></h4>
+        <p class="company-catchphrase"></p>
+        <p class="company-bs"></p>
+      </div>
+    </li>
+  </template>
+  <template class="js-templateposts">
+    <li class="js-postsitem">
+      <div class="js-idposts"></div>
+      <h3 class="js-h3posts"></h3>
+      <p class="js-textposts"></p>
+      <div class="left-arrow"></div>
+    </li>
+  </template>
+  <template class="js-templatecomment">
+    <li class="js-commentsitem">
+      <div class="js-idcomment"></div>
+      <h3 class="js-h3comment"></h3>
+      <a class="js-linkcomment"></a>
+      <p class="js-textcomment"></p>
+      <div class="left-arrows"></div>
+    </li>
+  </template>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
